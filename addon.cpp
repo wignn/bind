@@ -18,7 +18,7 @@ void sum(const FunctionCallbackInfo<Value> &args)
   Isolate *isolate = args.GetIsolate();
   double a = 4.4563;
 
-  // Hitung bilangan prima
+
   for (int i = 2; i < 1000000; i++)
   {
     bool isPrime = true;

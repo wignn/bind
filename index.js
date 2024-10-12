@@ -39,8 +39,8 @@ console.log(addon.sum());
 console.timeEnd('C++ Time');
 
 function printMatrixStyle(numbers) {
-    const matrixChar = '🔹'; 
-    const rows = process.stdout.columns; 
+    const matrixChar = '🔹';
+    const rows = process.stdout.columns;
 
     let output = '';
     for (let number of numbers) {
@@ -51,11 +51,11 @@ function printMatrixStyle(numbers) {
         }
     }
     if (output) {
-        console.log(output); 
+        console.log(output);
     }
 }
 
-console.log("C++ - Bilangan prima:");
+console.log("C++ - Bilangan Prisma untuk 1000:");
 let cppPrismNumbers = [];
 for (let i = 1; i <= 1000; i++) {
     if (addon.isPrismNumber(i)) {
