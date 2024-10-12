@@ -1,0 +1,15 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp configure build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-gyp": "^10.2.0"
+  }
+}
